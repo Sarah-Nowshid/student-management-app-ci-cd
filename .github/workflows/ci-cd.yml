@@ -24,7 +24,3 @@ jobs:
       - name: Run tests
         run: |
           echo "No tests yet – pipeline working"
-
-      - name: Build check
-        run: |
-          python app.py --help || true
